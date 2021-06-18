@@ -3,7 +3,7 @@ package com.google.openemrpages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
-
+//login page 
 public class Loginpage {
 	private By usernameLocator = By.id("authUser");
 	private By passwordLocator = By.id("clearPass");
