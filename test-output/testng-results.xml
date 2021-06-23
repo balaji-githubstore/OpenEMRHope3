@@ -1,25 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-18T20:32:44 IST" name="Default suite" finished-at="2021-06-18T20:33:44 IST" duration-ms="60196">
+  <suite started-at="2021-06-23T20:10:34 IST" name="Default suite" finished-at="2021-06-23T20:11:33 IST" duration-ms="59605">
     <groups>
     </groups>
-    <test started-at="2021-06-18T20:32:44 IST" name="Default test" finished-at="2021-06-18T20:33:44 IST" duration-ms="60196">
-      <class name="com.google.openemrtest.AddpatientpageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.google.openemrtest.AddpatientpageTest@2accdbb5]" started-at="2021-06-18T20:32:44 IST" name="setup" finished-at="2021-06-18T20:32:50 IST" duration-ms="6142" status="PASS">
+    <test started-at="2021-06-23T20:10:34 IST" name="Default test" finished-at="2021-06-23T20:11:33 IST" duration-ms="59605">
+      <class name="com.google.openemrtest.DemoTest">
+        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@2accdbb5]" started-at="2021-06-23T20:11:06 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:11:17 IST" duration-ms="11123" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[peter]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[peter123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="AddpatientEmrpageTest()[pri:3, instance:com.google.openemrtest.AddpatientpageTest@2accdbb5]" started-at="2021-06-18T20:32:50 IST" name="AddpatientEmrpageTest" finished-at="2021-06-18T20:33:43 IST" duration-ms="53097" status="PASS">
+        </test-method> <!-- validTest -->
+        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@2accdbb5]" started-at="2021-06-23T20:11:17 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:11:27 IST" duration-ms="9823" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[john123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AddpatientEmrpageTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.google.openemrtest.AddpatientpageTest@2accdbb5]" started-at="2021-06-18T20:33:43 IST" name="teardown" finished-at="2021-06-18T20:33:44 IST" duration-ms="866" status="PASS">
+        </test-method> <!-- validTest -->
+        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@2accdbb5]" started-at="2021-06-23T20:11:27 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:11:33 IST" duration-ms="6452" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[king]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[king123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.google.openemrtest.AddpatientpageTest -->
+        </test-method> <!-- validTest -->
+      </class> <!-- com.google.openemrtest.DemoTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

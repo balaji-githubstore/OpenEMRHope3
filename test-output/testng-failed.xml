@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.google.openemrtest.AddpatientpageTest">
+      <class name="com.google.openemrtest.DemoTest">
         <methods>
-          <include name="setup"/>
-          <include name="teardown"/>
-          <include name="AddpatientEmrpageTest"/>
+          <include name="validTest"/>
         </methods>
-      </class> <!-- com.google.openemrtest.AddpatientpageTest -->
+      </class> <!-- com.google.openemrtest.DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
