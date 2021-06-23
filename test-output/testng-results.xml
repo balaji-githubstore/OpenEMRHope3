@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-06-23T20:10:34 IST" name="Default suite" finished-at="2021-06-23T20:11:33 IST" duration-ms="59605">
+  <suite started-at="2021-06-23T20:16:24 IST" name="Default suite" finished-at="2021-06-23T20:16:37 IST" duration-ms="12186">
     <groups>
     </groups>
-    <test started-at="2021-06-23T20:10:34 IST" name="Default test" finished-at="2021-06-23T20:11:33 IST" duration-ms="59605">
+    <test started-at="2021-06-23T20:16:24 IST" name="Default test" finished-at="2021-06-23T20:16:37 IST" duration-ms="12186">
       <class name="com.google.openemrtest.DemoTest">
-        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@2accdbb5]" started-at="2021-06-23T20:11:06 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:11:17 IST" duration-ms="11123" status="PASS">
+        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@72cde7cc]" started-at="2021-06-23T20:16:31 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:16:35 IST" duration-ms="4054" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validTest -->
-        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@2accdbb5]" started-at="2021-06-23T20:11:17 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:11:27 IST" duration-ms="9823" status="PASS">
+        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@72cde7cc]" started-at="2021-06-23T20:16:35 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:16:36 IST" duration-ms="933" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,7 +39,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validTest -->
-        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@2accdbb5]" started-at="2021-06-23T20:11:27 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:11:33 IST" duration-ms="6452" status="PASS">
+        <test-method signature="validTest(java.lang.String,java.lang.String)[pri:0, instance:com.google.openemrtest.DemoTest@72cde7cc]" started-at="2021-06-23T20:16:36 IST" name="validTest" data-provider="validData" finished-at="2021-06-23T20:16:37 IST" duration-ms="651" status="PASS">
           <params>
             <param index="0">
               <value>
