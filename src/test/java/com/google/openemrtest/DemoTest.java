@@ -15,7 +15,7 @@ public class DemoTest {
 	
 		FileInputStream file = new FileInputStream("src/test/resources/testdata/OpenEMRData.xlsx"); // location
 		XSSFWorkbook book = new XSSFWorkbook(file); // open
-		XSSFSheet sheet = book.getSheet("validCredentialTest"); // sheet
+		XSSFSheet sheet = book.getSheet("invalidCredentialTest"); // sheet
 		
 		int rowCount = sheet.getPhysicalNumberOfRows();
 						
@@ -37,7 +37,7 @@ public class DemoTest {
 			System.out.println("-----------------------");
 		}
 		
-		
+		System.out.println();
 	}
 
 }

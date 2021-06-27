@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.google.openemrtest.LoginTest">
+      <class name="com.google.openemrtest.MainPageTest">
         <methods>
-          <include name="validCredentialTest"/>
+          <include name="newSearchMenuTest" invocation-numbers="1 2"/>
           <include name="setup"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.google.openemrtest.LoginTest -->
+      </class> <!-- com.google.openemrtest.MainPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

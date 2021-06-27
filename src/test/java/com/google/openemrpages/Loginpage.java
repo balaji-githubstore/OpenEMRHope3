@@ -9,7 +9,8 @@ public class Loginpage {
 	private By passwordLocator = By.id("clearPass");
 	private By selectLanguageLocator = By.name("languageChoice");
 	private By loginButtonLocator = By.xpath("//button[@type='submit']");
-	private By getPagename = By.xpath("//span[@class ='mx-2 font-weight-bold']");
+	private By getPagenameLocator = By.xpath("//span[@class ='mx-2 font-weight-bold']");
+	private By errorLocator=By.xpath("//div[@class='alert alert-danger login-failure m-1']");
 	private WebDriver driver;
 	
 	public Loginpage(WebDriver driver)
@@ -40,7 +41,19 @@ public class Loginpage {
 	
 	public String getPagename()
 	{
-		return driver.findElement(getPagename).getText().trim();
+		return driver.findElement(getPagenameLocator).getText().trim();
 	}
+	
+	public String getErrorMessage()
+	{
+		return driver.findElement(errorLocator).getText().trim();
+	}
+	
 }
+
+
+
+
+
+
 

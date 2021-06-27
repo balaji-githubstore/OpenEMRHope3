@@ -24,4 +24,14 @@ public class LoginTest extends WebDriverWrapper{
 		Assert.assertEquals(login.getPagename(),  expectedValue);
 	}
 
+	@Test(dataProvider = "openEmrData",dataProviderClass = DataProviderUtils.class)
+	public void invalidCredentialTest(String username,String password,String language,String expectedValue)
+	{
+		Loginpage login = new Loginpage(driver);
+		login.enterUserName(username);
+		login.enterPassword(password);
+		login.selectLanguage(language);
+		login.loginButton();
+		Assert.assertEquals(login.getErrorMessage(),  expectedValue);
+	}
 }

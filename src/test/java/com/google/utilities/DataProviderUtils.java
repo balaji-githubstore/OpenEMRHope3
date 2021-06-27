@@ -1,8 +1,35 @@
 package com.google.utilities;
 
+import java.io.IOException;
+import java.lang.reflect.Method;
+
 import org.testng.annotations.DataProvider;
 
 public class DataProviderUtils {
+	
+	
+//	@DataProvider
+//	public Object[][] invalidCredentialData() throws IOException {
+//		Object[][] main = ExcelUtils.sheetIntoObject("src/test/resources/testdata/OpenEMRData.xlsx",
+//				"invalidCredentialTest");
+//		return main;
+//	}
+//
+//	@DataProvider
+//	public Object[][] patientsMenuData() throws IOException {
+//		Object[][] main = ExcelUtils.sheetIntoObject("src/test/resources/testdata/OpenEMRData.xlsx",
+//				"patientsMenuTest");
+//		return main;
+//	}
+	 
+	
+	@DataProvider
+	public Object[][] openEmrData(Method method) throws IOException
+	{
+		System.out.println(method.getName());
+		Object[][] main = ExcelUtils.sheetIntoObject("src/test/resources/testdata/OpenEMRData.xlsx", method.getName());	
+		return main;
+	}
 	
 	@DataProvider
 	public Object[][] validCredentialData()
