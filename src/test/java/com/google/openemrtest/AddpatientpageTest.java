@@ -18,7 +18,7 @@ public class AddpatientpageTest extends WebDriverWrapper {
 	
 	
 	@Test(priority = 3)
-	public void AddpatientEmrpageTest()
+	public void addpatientEmrpageTest()
 	{
 		//Loginpage
 		Loginpage login = new Loginpage(driver);
