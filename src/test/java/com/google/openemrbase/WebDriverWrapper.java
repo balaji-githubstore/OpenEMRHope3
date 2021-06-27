@@ -21,6 +21,7 @@ public class WebDriverWrapper {
 		driver.get("http://demo.openemr.io/b/openemr/interface/login/login.php?site=default");
 		
 		
+		
 	}
 		@AfterMethod
 		public void teardown() {
