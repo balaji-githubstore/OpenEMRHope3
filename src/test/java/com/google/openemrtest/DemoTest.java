@@ -12,17 +12,34 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class DemoTest {
 	public static void main(String[] args) throws IOException {
-		//read cell
+	
+		//all cell value
 		FileInputStream file = new FileInputStream("src/test/resources/testdata/OpenEMRData.xlsx"); // location
 		XSSFWorkbook book = new XSSFWorkbook(file); // open
 		XSSFSheet sheet = book.getSheet("validCredentialTest"); // sheet
-		XSSFRow row = sheet.getRow(0);
-		XSSFCell cell = row.getCell(1);
 		
-		DataFormatter format=new DataFormatter();
-		String cellValue = format.formatCellValue(cell);
-		System.out.println(cellValue);
+		
+		
+		for(int r=1;r<3;r++)
+		{
+			for(int c=0;c<4;c++)
+			{
+				XSSFRow row = sheet.getRow(r);
+				XSSFCell cell = row.getCell(c);
+				
+				DataFormatter format=new DataFormatter();
+				String cellValue = format.formatCellValue(cell);
+				System.out.println(cellValue);
+				
+			}
+			System.out.println("-----------------------");
+		}
+		
 		
 	}
 
 }
+
+
+
+
