@@ -13,7 +13,7 @@ public class WebDriverWrapper {
 
 	@BeforeMethod
 	public void setup() {
-		System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "src/test/resources/driver/chromedriver.exe");
 
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
