@@ -12,7 +12,6 @@ public class LoginTest extends WebDriverWrapper{
 	//admin,pass,English (Standard),Patient: None
 	//physician,physician,English (Standard),Patient: None
 	
-	
 	@Test(priority=1,dataProvider = "validCredentialData",dataProviderClass = DataProviderUtils.class)
 	public void validCredentialTest(String username,String password,String language,String expectedValue)
 	{
